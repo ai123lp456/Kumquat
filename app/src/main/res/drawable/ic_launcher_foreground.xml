@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自适应图标前景：一颗带叶子的小金桔（纯矢量，无位图） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 果身 -->
+    <path
+        android:fillColor="#FF9F1C"
+        android:pathData="M54,38 C67,38 78,49 78,62 C78,75 67,86 54,86 C41,86 30,75 30,62 C30,49 41,38 54,38 Z" />
+    <!-- 高光 -->
+    <path
+        android:fillAlpha="0.55"
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,47 C46,42 52,40 57,41 C52,44 48,48 45,54 C44,55 42,55 41,53 C40,51 40,49 42,47 Z" />
+    <!-- 叶 -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M57,38 C62,26 74,22 82,26 C78,36 68,40 57,38 Z" />
+    <!-- 果蒂 -->
+    <path
+        android:fillColor="#8D5524"
+        android:pathData="M53,36 m-2,0 a2,3 0,1 0,4 0 a2,3 0,1 0,-4 0" />
+</vector>

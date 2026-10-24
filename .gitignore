@@ -1,0 +1,51 @@
+# ---- 本机配置 ----
+local.properties
+keystore.properties
+secrets.properties
+
+# ---- 签名与密钥材料 ----
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+credentials.*
+
+# ---- 构建产物与缓存 ----
+build/
+app/build/
+.gradle/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+out/
+dist/
+target/
+bin/
+*.class
+*.dex
+*.apk
+*.aab
+*.aar
+release/
+
+# ---- 依赖目录 ----
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# ---- IDE 与系统文件 ----
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
+*.bak
+hs_err_pid*
